@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a915cc3f9c2ffbac73666df67f7183155fd1e9aa6a6241b63299f9096a722d5a.html">Make A Hotel Reservation</a></span>
+                > <span class="truncate-60"><a
+                    href="513f694741b2f13a7762fd2d273b91afb7083594788a67db8d749e8f2056dc01.html">Successful search for a hotel reservation from the main Trivago website </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-10-2019 00:27</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Make A Hotel Reservation </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user<br />
+I want to do reserve a hotel<br />
+TO do test using the programming language Cucumber, and Gherkin.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ba0b49e4074d2caef44f190bead75a022055648e19bf99167bb3ef309fce6e89.html">Testcase1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Successful search for a hotel reservation from the main Trivago website
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected hotel stateExpected: is (true) but: was (false)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.accenture.certificacion.trivago.stepdefinitions.SelectHotelStepDefinitions.sheShouldSeeTheStateOfTheHotelExcelenteMuyBuenoOrBueno(SelectHotelStepDefinitions.java:63)<br />✽.she should see the state of the hotel: Excelente, muy bueno, or bueno(src/test/resources/features/select_hotel.feature:15)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5934816440606610182.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="682bcdba8808e1c24c90d08fb440b711938236cb5b173bfdced451ea14584124.png" title="Given that Jessica wants to look for a hotel reservation" width="1034"/>
+                <img src="682bcdba8808e1c24c90d08fb440b711938236cb5b173bfdced451ea14584124.png" title="Jessica opens the https://www.trivago.com.co" width="1034"/>
+                <img src="dbffa2861866badbc4329b7b390d5b31821622627a02f749bb355c4b8465dd59.png" title="When She insert the data of the hotel" width="1034"/>
+                <img src="dfc7ac8ce2931807379ba1317f4da26e5547a5300eae31c88c1e9dbee3bae4b7.png" title="When She insert the data of the hotel" width="1034"/>
+                <img src="dbffa2861866badbc4329b7b390d5b31821622627a02f749bb355c4b8465dd59.png" title="Jessica clicks on Select the destination city" width="1034"/>
+                <img src="682bcdba8808e1c24c90d08fb440b711938236cb5b173bfdced451ea14584124.png" title="Jessica clicks on Select the destination city" width="1034"/>
+                <img src="dbffa2861866badbc4329b7b390d5b31821622627a02f749bb355c4b8465dd59.png" title="Jessica enters 'medellin' into Select the destination city" width="1034"/>
+                <img src="13e17517956988ba1af03ba6f6eed05fb9d142825bd18026ca0dfaca39bfd010.png" title="Jessica enters 'medellin' into Select the destination city" width="1034"/>
+                <img src="5285360feed56f4f63f1e1815f70c5ae966733bc7315443436c8990b78d1a47e.png" title="Jessica clicks on Select the destination city" width="1034"/>
+                <img src="4769c1952b1256e811d0bfad7dcd31ebe11f42c970da4014d08bb4c6e66958ad.png" title="Jessica clicks on Select the destination city" width="1034"/>
+                <img src="4769c1952b1256e811d0bfad7dcd31ebe11f42c970da4014d08bb4c6e66958ad.png" title="Jessica clicks on Click on the field" width="1034"/>
+                <img src="9a2d0c28f457c7e761f2bddf4ac34059eefdbe4c693fa94505c1b750d7177374.png" title="Jessica clicks on Click on the field" width="1034"/>
+                <img src="9a2d0c28f457c7e761f2bddf4ac34059eefdbe4c693fa94505c1b750d7177374.png" title="Jessica clicks on Select the going field" width="1034"/>
+                <img src="c143d472a8dcf411ce48bb154d49c36194ab6bbfbec3df66808b09006f4e8903.png" title="Jessica clicks on Select the going field" width="1034"/>
+                <img src="c143d472a8dcf411ce48bb154d49c36194ab6bbfbec3df66808b09006f4e8903.png" title="Jessica clicks on Click on the search button" width="1034"/>
+                <img src="bb4afd41a322dcecc9f72f71bde9fc5f5431740bb8d0d0e9c67b62ac0001615a.png" title="Jessica clicks on Click on the search button" width="1034"/>
+                <img src="8bd6cdd30d356f78a3c93e56f3b204ede9cfef3bc4de846189d60415851dfc78.png" title="And she select type of accommodation and some hotel services" width="1034"/>
+                <img src="b3a356a2a250fc701f897310016403c81121d6ac539411abf4da64c1a8a345de.png" title="And she select type of accommodation and some hotel services" width="1034"/>
+                <img src="8bd6cdd30d356f78a3c93e56f3b204ede9cfef3bc4de846189d60415851dfc78.png" title="Jessica clicks on Click on type of accommodation" width="1034"/>
+                <img src="5ad768f385400ea5ff62feb286d2f5fb46c37abbcfad4586fbeb79124a86d73a.png" title="Jessica clicks on Click on type of accommodation" width="1034"/>
+                <img src="b577fd3cebe3be9a8e0bbc395226474a435e4a490bb47fb2a5bb29ba71fcbfd4.png" title="Jessica clicks on Select the accommodation" width="1034"/>
+                <img src="5afe4d70069c2564b915ab508bc44d250c6f4c18c1dc45baed9780e3b08657d9.png" title="Jessica clicks on Select the accommodation" width="1034"/>
+                <img src="a5aa7cabe39a349cc2cf620c6fbbf2f8ee7b92ce66efb9d6e8cba4bee4277c6f.png" title="Jessica clicks on Click on filter " width="1034"/>
+                <img src="256b48c9a30fa4503adc09a2f19762c1a8472fc91d1402f91e38d59583058fb7.png" title="Jessica clicks on Click on filter " width="1034"/>
+                <img src="256b48c9a30fa4503adc09a2f19762c1a8472fc91d1402f91e38d59583058fb7.png" title="Jessica clicks on Click on Hotel Services" width="1034"/>
+                <img src="3a60992e28391febf0b19e3a864dbac853ab6dcf39c9be01e3e0b45573a1b75f.png" title="Jessica clicks on Click on Hotel Services" width="1034"/>
+                <img src="3a60992e28391febf0b19e3a864dbac853ab6dcf39c9be01e3e0b45573a1b75f.png" title="Jessica clicks on Select sunny chair" width="1034"/>
+                <img src="289615ea8950c49677c1309a6eddc963261fa21b58b8281fa565ed248e44a190.png" title="Jessica clicks on Select sunny chair" width="1034"/>
+                <img src="4f6d3af7783e71241f939456b4e4bbab4bb8680a715fec6f8b720fe0a0460aed.png" title="Jessica clicks on Select bar service" width="1034"/>
+                <img src="1c00b27cc45f81053928c66ec5276f317d9be2bedc44843ddbb3bec38bbba66a.png" title="Jessica clicks on Select bar service" width="1034"/>
+                <img src="879659f0cca02c3bde0a3ec86745a0c39f1f4d4e7b2e5e8748fdc83a9c33bb8f.png" title="Jessica clicks on Select bar service" width="1034"/>
+                <img src="d9c9fc1115a1d9a446282553c66cc1b6990ff16b19fa7d014c28a3647f94a6b3.png" title="Jessica clicks on Select bar service" width="1034"/>
+                <img src="487c484d3102aa11a6e3b3503e6a2d30a7aaef0ebd112f440e21ec87fe3c3b18.png" title="Jessica clicks on Click on the LISTO button" width="1034"/>
+                <img src="b3a356a2a250fc701f897310016403c81121d6ac539411abf4da64c1a8a345de.png" title="Jessica clicks on Click on the LISTO button" width="1034"/>
+                <img src="ce9d09c817326597b8160a954dec62f48302cf76e4d8bbd2c1413b382d55d813.png" title="And she select the cheaper price" width="1034"/>
+                <img src="da4eb8f620c936e28f3b7a678f9574e34670daa340a6be6781cf3913faf7a2e9.png" title="Jessica clicks on Select order by" width="1034"/>
+                <img src="da4eb8f620c936e28f3b7a678f9574e34670daa340a6be6781cf3913faf7a2e9.png" title="Jessica clicks on Select order by price" width="1034"/>
+                <img src="dad449b2d7667cf7de84ddea68071a120894fefd940b218a5c5a8af61e0a2473.png" title="Jessica clicks on Select order by price" width="1034"/>
+                <img src="90931811cc12740b35b6469c53355953996d8887a98beadfd4eea7ca83c0849a.png" title="Then she should see the state of the hotel: Excelente, muy bueno, or bueno" width="1034"/>
+                <img src="90931811cc12740b35b6469c53355953996d8887a98beadfd4eea7ca83c0849a.png" title="Then hotel state" width="1034"/>
+                <img src="90931811cc12740b35b6469c53355953996d8887a98beadfd4eea7ca83c0849a.png" title="Then hotel state: <span class='failing-color'>FAILURE</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>
